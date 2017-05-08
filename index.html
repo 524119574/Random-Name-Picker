@@ -29,11 +29,15 @@
           </ul>
 
           <button type="button" name="button" data-bind = "click: getRandomName" >Get Me a Random Name</button>
-          <h1 id = "name-display"></h1>
+          <h1 id = "name-display">The chosen one is...</h1>
+
+          <button type="button" name="button" data-bind = "click: clearStorage" >Clear Storage</button>
+
         </main>
 
-        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <!--<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script> -->
+        <script src="js/vendor/jquery-1.12.0.min.js"></script>
         <script src="js/vendor/knockout-3.4.2.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
